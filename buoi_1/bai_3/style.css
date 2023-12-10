@@ -1,0 +1,21 @@
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.clock {
+    margin: 5px;
+    padding: 10px;
+    min-width: 16%;
+    /* background-color: aquamarine; */
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.clock__title {
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
